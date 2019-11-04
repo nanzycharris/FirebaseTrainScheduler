@@ -17,11 +17,11 @@ body {
   width: 900px;
   height: 250px;
   align-items: center;
-  background-color: rgba(145, 141, 141, 0.822);;
+  background-color: rgba(177, 173, 173, 0.918);
 }
 
 img {
-  border: solid black 2px;
+  border: rgb(245, 50, 1) solid 2px;
   margin-top: -37px;
 }
 
