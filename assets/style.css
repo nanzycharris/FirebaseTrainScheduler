@@ -1,0 +1,55 @@
+*, *::after, *::before {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(woodenbackground.jpg);
+    padding: 0;
+    margin: 0;
+    width: 1280px;
+    height: 800px;
+}
+
+.jumbotron {
+  margin: 10%;
+  margin-top: 2%;
+  width: 900px;
+  height: 250px;
+  align-items: center;
+  background-color: rgba(145, 141, 141, 0.822);;
+}
+
+img {
+  border: solid black 2px;
+  margin-top: -37px;
+}
+
+h1 { 
+  margin-left: 13%;
+  margin-top: -45px;
+  color: rgb(245, 50, 1);
+  text-shadow: 1px 1px rgb(214, 212, 212);
+  font-weight: 700;
+}
+
+p { 
+  float: left;
+  font-size: 16.75px;
+  margin-top: -2px;
+  margin-left: 2%;
+  color: rgb(17, 17, 17);
+  line-height: 23px;
+}
+
+.card-header {
+  color: rgb(245, 50, 1);
+  text-shadow: 1px 1px rgb(214, 212, 212);
+  font-size: 18px;
+  font-weight: bold; 
+}
+
+#add-train-btn {
+  background: rgb(245, 50, 1);
+  border:  rgb(214, 212, 212);
+}
