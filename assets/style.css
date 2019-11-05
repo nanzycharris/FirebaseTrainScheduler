@@ -53,3 +53,7 @@ p {
   background: rgb(245, 50, 1);
   border:  rgb(214, 212, 212);
 }
+
+.card {
+  margin-top: -70px;
+}

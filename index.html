@@ -12,16 +12,17 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="assets/style.css">
 
-    <!-- Firebase References -->
-    <script src="/__/firebase/7.2.3/firebase-app.js"></script>
-    <script src="/__/firebase/7.2.3/firebase-analytics.js"></script>
+    <!-- Firebase Core JavaScript Link -->
+    <script src="https://www.gstatic.com/firebasejs/6.0.4/firebase-app.js"></script>
+
+    <!-- Specific Firebase products we want (Database) -->
+    <script src="https://www.gstatic.com/firebasejs/6.0.4/firebase-database.js"></script>
 
     <!-- Moment.js Reference -->
     <script src="https://cdn.jsdelivr.net/momentjs/2.12.0/moment.min.js"></script>
 
     <!-- Title -->
     <title>Firebase Train Scheduler</title>
-
 
 </head>
 
@@ -92,11 +93,11 @@
                                 <input type="text" class="form-control" id="destination-input">
                             </div>
                             <div class="form-group">
-                                <label for="first-train-input">First Train Time (HH:mm - military time)</label>
+                                <label for="first-train-input">First Train Time (hh:mm - military time)</label>
                                 <input type="text" class="form-control" id="first-train-input">
                             </div>
                             <div class="form-group">
-                                <label for="frequency-input">Frequency (min)</label>
+                                <label for="frequency-input">Frequency (minutes)</label>
                                 <input type="text" class="form-control" id="frequency-input">
                             </div>
                             <button type="submit" class="btn btn-primary" id="add-train-btn">Submit</button>
@@ -108,7 +109,8 @@
     </div>
 
     <!-- Script -->
-    <script src="traintime-logic.js"></script>
+
+    <script src="assets/trainlogic.js"></script>
 
 </body>
 
